@@ -1,0 +1,18 @@
+{
+    "name": "bbcsky/ali-zmxy-php",
+    "description": "阿里的芝麻信用官SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wenger Zhou",
+            "email": "bbcsky@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"zmxy\\": "src/"},
+        "files": ["src/ZmopSdk.php"]
+    }
+}
